@@ -1,0 +1,37 @@
+.cont-1 {
+     
+    padding-left: 600px; 
+   
+   }
+   
+    .cont-1 a:hover{
+       
+       color: red;
+   }
+   
+       
+   .jumbotron{
+       
+       
+       text-align: center;
+       background-color: #DCDCDC;
+       padding-bottom: 150px;
+       padding-top: 150px;
+       
+   
+   }
+   
+   .section-light .card{
+       
+       text-align: center;
+     
+       
+       
+   } 
+   .jumbotron button{
+       
+       background-color: aquamarine;
+   }
+   
+   
+   
