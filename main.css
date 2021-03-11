@@ -17,8 +17,12 @@
        background-color: #DCDCDC;
        padding-bottom: 150px;
        padding-top: 150px;
-       
-   
+        background-image: url("bgm.jpg");
+       background-repeat: no-repeat;
+     max-width: 100%;
+   object-fit: cover;
+       background-size: cover;
+       height: 20px;
    }
    
    .section-light .card{
@@ -30,7 +34,11 @@
    } 
    .jumbotron button{
        
-       background-color: aquamarine;
+       background-color:#DCDCDC ;
+       border-radius: 5px;
+       margin-top: 50px;
+       height: 3rem;
+       width: 6rem;
    }
    
    
