@@ -6,7 +6,7 @@
    
     .cont-1 a:hover{
        
-       color: red;
+       color:blue;
    }
    
        
@@ -17,8 +17,13 @@
        background-color: #DCDCDC;
        padding-bottom: 150px;
        padding-top: 150px;
-       
-   
+        background-image: url("bgm.jpg");
+       background-repeat: no-repeat;
+     max-width: 100%;
+
+       height: 600px;
+       background-size: cover;
+  position: relative;
    }
    
    .section-light .card{
@@ -28,10 +33,5 @@
        
        
    } 
-   .jumbotron button{
-       
-       background-color: aquamarine;
-   }
-   
-   
-   
+  
+  
