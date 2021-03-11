@@ -20,9 +20,10 @@
         background-image: url("bgm.jpg");
        background-repeat: no-repeat;
      max-width: 100%;
-   object-fit: cover;
+
+       height: 600px;
        background-size: cover;
-       height: 20px;
+  position: relative;
    }
    
    .section-light .card{
@@ -32,14 +33,5 @@
        
        
    } 
-   .jumbotron button{
-       
-       background-color:#DCDCDC ;
-       border-radius: 5px;
-       margin-top: 50px;
-       height: 3rem;
-       width: 6rem;
-   }
-   
-   
-   
+  
+  
