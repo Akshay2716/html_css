@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
 .cont-1 {
      
-    padding-left: 600px; 
+   margin-left: 600px;
    
    }
    
@@ -26,12 +31,123 @@
   position: relative;
    }
    
-   .section-light .card{
-       
-       text-align: center;
-     
-       
-       
-   } 
+.jumbotron button{
+
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 1.5s;
+  cursor: pointer;
+  margin-top: 100px;
+    
+}
+.nav-item{
+    display: inline;
+    font-size: 30px;
+    padding-top: 8px;
+}
+.cont-1, .cont-2 a{
+    font-size: 40px;
+}
+
+.cont-1:hover{
+     background-color: #f4511e;
+    
+}
+.cont-2:hover {
+   
+    background-color: #f4511e;
+
+   
+    
+}
+
+
+.jumbotron button:hover{
+    
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ button h1{
+    
+    font-weight: 400;
+    
+}
+.intro-text{
+    
+    font-family: 'Dancing Script', cursive;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 80x;
+}
+
+
+
+  .intro-text h1 {
+    
+    display: inline;
+      font-size: 80px;
+
+    
+}
+.intro-text h2{
+    
+    display: block;
+    font-family: sans-serif;
+    padding-top: 20px;
+    
+}
+
+.section-dark {
+    
+    background-color:#DCDCDC ;
+    height: 700px;
   
-  
+}
+
+.intro-image img{
+    
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 20rem;
+    width: 20rem;
+
+    
+}
+  {
+    
+    margin-left: 400px;
+    margin-top: 50px;
+    
+}
+  .intro-button button{
+    margin-top: 0;
+    margin-left: 500px;
+        display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+   
+      
+}
+
+.intro-button:active{
+    
+ 
+
+  transform: translateY(4px);
+}
